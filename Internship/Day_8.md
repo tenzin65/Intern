@@ -111,7 +111,8 @@ const greaterThenSeven=(e)=>{
 console.log(arr.filter(greaterThenSeven))
 ```
 <h2> Github Commands</h2><br>
-Links it to the GitHub repository 
+Links it to the GitHub repository
+
 ```
 
  git remote add origin git@github.com:tenzin65/Intern.git
@@ -119,6 +120,7 @@ Links it to the GitHub repository
 ```
 Displays the list of remote repositories linked to your project along with their URLs.
 The -v (verbose) flag shows both fetch and push URLs
+
 ```
 
 git remote -v
