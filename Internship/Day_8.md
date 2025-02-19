@@ -17,12 +17,15 @@ console.log(arr.toString())
 
 ```
 join()-It will join all the element using the sepeator
+
+
 ```
 
 console.log(arr.join(" and "))
 
 ```
 pop()- It will pop out the or return me the last element.
+
 ```
 
 a=[1,2,3,4,5]
@@ -30,6 +33,7 @@ a.pop()
 
 ```
 push()- It will add a element at the end and also show the current length.
+
 ```
 
 a=[1,2,3,4,5]
@@ -110,6 +114,25 @@ const greaterThenSeven=(e)=>{
 }
 console.log(arr.filter(greaterThenSeven))
 ```
+reduce an array to a single value.
+```
+
+let arr2=[1,2,3,4,5,6]
+const red = (a,b)=>{
+    return a*b
+}
+console.log(app2.reduce(red))
+
+```
+array from- used to create an array from any other object 
+
+```
+
+Array.from("Tenzin")
+
+```
+
+
 <h2> Github Commands</h2><br>
 Links it to the GitHub repository
 
