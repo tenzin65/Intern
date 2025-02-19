@@ -36,8 +36,11 @@ a=[1,2,3,4,5]
 a.push(10)
 
 ```
+
 <h2>Loop in JS</h2>
+
 ```
+
 
 let a=[1,2,3,4,5,6]
 for (let i=0; i<a.length; i++>){
@@ -47,6 +50,7 @@ for (let i=0; i<a.length; i++>){
 }
 
 ```
+
 ```
 
 a.forEach(value, index, arr)=>{
@@ -105,4 +109,46 @@ const greaterThenSeven=(e)=>{
     return false
 }
 console.log(arr.filter(greaterThenSeven))
+```
+<h2> Github Commands</h2><br>
+Links it to the GitHub repository 
+```
+
+ git remote add origin git@github.com:tenzin65/Intern.git
+
+```
+Displays the list of remote repositories linked to your project along with their URLs.
+The -v (verbose) flag shows both fetch and push URLs
+```
+
+git remote -v
+
+```
+Renames the current branch to main.
+
+```
+
+git branch -m main
+
+```
+Shows the commit history of the current branch.
+
+```
+
+git log
+
+```
+It sets the remote tracking branch, meaning your local branch (main) will now track origin/main.
+
+```
+
+git branch --set-upstream-to=origin/main
+
+```
+Pulls changes from the remote repository (origin/main).
+
+```
+
+git pull --rebase
+
 ```
