@@ -8,3 +8,4 @@ const student={
     },    
 };
 // output {full_name: 'Tenzin Dakar', Adm: 8909, Course: 'BCA', marks: 95, printMarks: ƒ}
+

@@ -34,9 +34,6 @@ ip.src==192.168.154.136
 <h2>capture from many different network media,</h2>
 Wireshark can capture traffic from many different network media types which include Ethernet, Wireless LAN, Bluetooth, USB, and more. <br>
 
-
-<br>![alt text](../2.png)
-
 <h2>Physical interfaces</h2>
 Asynchronous- It means that data can be sent and receivedat different times without needed to be prefectly synchronized with the other device.<br>
 <br>
@@ -54,6 +51,9 @@ Asynchronous- It means that data can be sent and receivedat different times with
 <li>USB (Universal Serial Bus) – Captures raw USB traffic.</li>
 <li>WLAN (Wireless Local Area Network) – Captures traffic on IEEE 802.11 interfaces (Wi-Fi), including "monitor mode," raw 802.11 headers, and radio information.</li>
 </ul>
+
+<br>![alt text](../2.png)
+
 <h2>Virtual Interfaces</h2>
 <ul>
 <li>Loopback - capture traffic from a machine to itself, including the IP address 127.0.0.1</li>
